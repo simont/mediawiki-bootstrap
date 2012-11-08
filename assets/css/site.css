@@ -73,8 +73,15 @@ h1, h2, h3, h4, h5, h6 {
 * wiki red links
 */
 a.new {
-	color: red;
+	color: pink;
 }
+
+/* Adding back the external link icon*/
+a.external.text {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC") no-repeat scroll right center transparent;
+    padding-right: 13px;
+}
+
 
 /** 
 * no-collapse override
@@ -126,3 +133,5 @@ a.new {
                     background-color: #0088cc;
                     color: #ffffff;
                 }
+
+
