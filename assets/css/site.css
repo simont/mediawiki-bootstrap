@@ -107,6 +107,10 @@ span.smwsearch a {
   padding-right: 16px;
 }
 
+span.editsection {
+	font-size: 18px;
+}
+
 /** 
 * no-collapse override
 * source: https://gist.github.com/2046174
